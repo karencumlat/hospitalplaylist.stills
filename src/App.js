@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   const [gyosu, setGyosu] = React.useState(1);
   const [episodeNumber, setEpisodeNumber] = React.useState(13);
-  console.log(episodeNumber);
+
   return (
     <div className="App">
       <header>
@@ -20,7 +20,7 @@ function App() {
         <nav>
           {episode.map((epi, index) => {
             const currIndex = index;
-            console.log('curr', currIndex);
+
             return (
               <button
                 key={epi.id}
@@ -46,7 +46,9 @@ function App() {
             <div
               key={five.tag}
               className={index === gyosu ? 'panel active' : 'panel'}
-              style={{ backgroundImage: `url(${imgUrl})` }}
+              style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL}${imgUrl})`,
+              }}
               onClick={() => setGyosu(lackingFive.indexOf(five))}
             >
               <h3>{five.name}</h3>

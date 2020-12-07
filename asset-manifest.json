@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hospitalplaylist.stills/static/css/main.d6421ef8.chunk.css",
-    "main.js": "/hospitalplaylist.stills/static/js/main.f5e407ca.chunk.js",
-    "main.js.map": "/hospitalplaylist.stills/static/js/main.f5e407ca.chunk.js.map",
+    "main.css": "/hospitalplaylist.stills/static/css/main.872d0bc1.chunk.css",
+    "main.js": "/hospitalplaylist.stills/static/js/main.d564c4fa.chunk.js",
+    "main.js.map": "/hospitalplaylist.stills/static/js/main.d564c4fa.chunk.js.map",
     "runtime-main.js": "/hospitalplaylist.stills/static/js/runtime-main.b9071074.js",
     "runtime-main.js.map": "/hospitalplaylist.stills/static/js/runtime-main.b9071074.js.map",
     "static/js/2.f30342d6.chunk.js": "/hospitalplaylist.stills/static/js/2.f30342d6.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8c865ff2.chunk.js": "/hospitalplaylist.stills/static/js/3.8c865ff2.chunk.js",
     "static/js/3.8c865ff2.chunk.js.map": "/hospitalplaylist.stills/static/js/3.8c865ff2.chunk.js.map",
     "index.html": "/hospitalplaylist.stills/index.html",
-    "static/css/main.d6421ef8.chunk.css.map": "/hospitalplaylist.stills/static/css/main.d6421ef8.chunk.css.map",
+    "static/css/main.872d0bc1.chunk.css.map": "/hospitalplaylist.stills/static/css/main.872d0bc1.chunk.css.map",
     "static/js/2.f30342d6.chunk.js.LICENSE.txt": "/hospitalplaylist.stills/static/js/2.f30342d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9071074.js",
     "static/js/2.f30342d6.chunk.js",
-    "static/css/main.d6421ef8.chunk.css",
-    "static/js/main.f5e407ca.chunk.js"
+    "static/css/main.872d0bc1.chunk.css",
+    "static/js/main.d564c4fa.chunk.js"
   ]
 }

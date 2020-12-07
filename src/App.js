@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const [gyosu, setGyosu] = React.useState(1);
-  const [episodeNumber, setEpisodeNumber] = React.useState(13);
+  const [episodeNumber, setEpisodeNumber] = React.useState(7);
 
   return (
     <div className="App">

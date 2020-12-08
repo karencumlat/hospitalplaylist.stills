@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h1,
+h3 {
+  margin: 0;
+}
+
 body {
   font-family: 'Muli', sans-serif;
   display: flex;
@@ -11,11 +16,8 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  margin: 0;
-}
-
-.App {
-  height: 100%;
+  margin: 0 auto;
+  padding: 0.5em;
 }
 
 header {
@@ -32,7 +34,6 @@ header {
 .tagline > h1 {
   flex: 1;
   font-size: 1.5em;
-  margin: 0;
 }
 
 .tagline--credit {
@@ -44,13 +45,13 @@ header {
 }
 
 nav {
-  flex: 5;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-button {
   flex: 1;
-  margin: 0 0.5em;
+  margin: 0.5em;
   padding: 0.5em 1.5em;
   background-color: black;
   border: none;
@@ -67,7 +68,6 @@ nav {
 
 main {
   display: flex;
-  width: 90vw;
 }
 
 .panel {
@@ -89,7 +89,6 @@ main {
   position: absolute;
   bottom: 1em;
   left: 2em;
-  margin: 0;
   opacity: 0;
 }
 
@@ -103,13 +102,28 @@ main {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 480px) {
-  .container {
-    width: 100vw;
+@media (max-width: 1024px) {
+  body {
+    height: auto;
   }
 
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tagline--credit {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .nav-button {
+    margin: 0.25em;
+    padding: 0.25em 1em;
+  }
+
+  .panel h3 {
+    text-align: center;
+    left: 0.5em;
   }
 }
